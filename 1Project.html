@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1>Learn DSA for free form varshika choudhary</h1>
+        <nav style = "color: bisque;" >
+            <ol>
+                <li><a href = "#first">C++ Introduction</a></li>
+                <li><a href = "#second"> C++ Compiler</a></li>
+                <li><a href = "#third">Array Introduction </a></li>
+                <li><a href = "#fourth">Trees</a></li>
+                <li><a href = "#fifth">Graphs</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <!-- c++ introduction -->
+         <section id = "first">
+         <h1 >Introduction of C++</h1>
+         <p>C++ is a general-purpose, compiled programming language created by Bjarne Stroustrup in 1979 at Bell Labs, initially as an extension of C. It supports procedural, object-oriented, and generic programming, offering features like classes, inheritance, polymorphism, templates, and manual memory management through pointers. This gives developers fine control over performance and hardware resources, making C++ highly efficient.
+        <br>It's widely used in system software, game engines, embedded systems, operating systems, and performance-critical applications like browsers and databases. Combining low-level control with high-level abstractions, C++ remains a foundational language in computer science, valued for its speed, versatility, and extensive use across industries.</p>
+         </section>
+        <!-- c++ compiler  -->
+         <section id = "second">
+        <h1>Online C++ compiler</h1>
+         <iframe src = "https://onecompiler.com/c" frameborder = " " height = "600" width = "100%" title = "Online C++ compiler"></iframe> 
+        <!-- Array -->
+         <section id = "third">
+        <h1>Introduction to Array</h1>
+        <h2>What is an Array ?</h2>
+        <p>An array is a data structure that stores multiple values in a single, ordered collection. Each value (called an element) is accessed using an index, usually starting at 0 for the first item. Arrays store elements of the same type in most languages and occupy contiguous memory, making access very fast — O(1) time using the index.
+        <br>
+        Arrays have a fixed or dynamic size depending on the language (e.g., fixed in C, dynamic in Python or JavaScript). Common operations include reading, updating, inserting, and deleting elements, though inserting/deleting in the middle can be slower since other elements may need to shift. Arrays are widely used for lists, matrices, and implementing other data structures like stacks and queues.</p>
+        <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20250527113849174354/c-array-declaration.webp" target = "_blank" height = "500" width = "600"> 
+        <h2>Characteristics of Array</h2>
+        <ul>
+            <li>Fixed/Ordered Structure: Elements are stored in a contiguous, ordered sequence, and each element has a specific position (index), usually starting from 0.</li>
+            <li>Homogeneous Data Type :Arrays typically store elements of the same data type (e.g., all integers or all strings), ensuring consistent memory allocation for each element.</li>
+            <li>Indexed Access : Elements can be accessed directly using their index, allowing constant time (O(1)) retrieval, regardless of the array's size.</li>
+        </ul>
+        <h2>Types of Array</h2>
+        <ol>
+            <li>One-Dimensional Array (1D)
+A simple linear list of elements, accessed using a single index.
+Example: [10, 20, 30, 40]</li>
+            <li>Two-Dimensional Array (2D)
+Also called a matrix — elements are arranged in rows and columns, accessed using two indices (row, column).</li>
+            <li>Multi-Dimensional Array
+Extends the concept beyond 2D — arrays with 3 or more dimensions, accessed using multiple indices. Used for complex data like 3D graphics or tensors.</li>
+        </ol>
+        <h2>Tutorial for Array</h2>
+         <table>
+            <tr>
+                <td><iframe src = "https://www.youtube.com/embed/WQoB2z67hvY" frameborder = "0" allowfullscreen></iframe></td>
+                <td><iframe src = "https://www.youtube.com/embed/WQoB2z67hvY" frameborder = "0" allowfullscreen></iframe></td>
+                <td><iframe src = "https://www.youtube.com/embed/WQoB2z67hvY" frameborder = "0" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/WQoB2z67hvY" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/WQoB2z67hvY" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/WQoB2z67hvY" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+         </table>
+         </section>
+        <!-- Tree -->
+         <section id = "fourth">
+        <h2>Introduction to Trees</h2>
+        <p>A **tree** is a hierarchical, non-linear data structure made up of nodes connected by edges. It starts with a single **root node**, which branches into **child nodes**, forming a parent-child relationship. Nodes with no children are called **leaf nodes**.<br>
+        Each node can have multiple children, but only one parent (except the root, which has none). Trees are used to represent hierarchical relationships like file systems, organization charts, or family trees.<br>
+        <br>Common types include **binary trees** (each node has at most two children), **binary search trees (BST)**, and **balanced trees** like AVL or Red-Black trees. Trees are widely used in searching, sorting, and organizing data efficiently, offering faster operations than linear structures like arrays or lists.</p>
+        <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20220802230109/Screenshot20220802at105939PM-660x302.jpg" height = "500" width = "600">
+        <h2>Characteristics of Trees</h2>
+        <ul>
+            <li>Hierarchical Structure : Data is organized in levels, starting from a single root node that branches out into child nodes, forming parent-child relationships.</li>
+            <li>Root Node : Every tree has exactly one root node, which is the topmost node and has no parent.</li>
+            <li>Parent-Child Relationship : Each node (except the root) has exactly one parent, but can have zero or more children.</li>
+            <li>Leaf Nodes : Nodes with no children are called leaf nodes (or external nodes) and represent the endpoints of the tree.</li>
+            <li>Edges : Connections between nodes are called edges, representing the relationship/link between a parent and its child.</li>
+        </ul>
+        <h2>Types of Trees</h2>
+        <o>
+            <li>General Tree : A tree where each node can have any number of children — no restriction on branching.</li>
+            <li>Binary Tree : Each node has at most two children, referred to as the left child and right child.</li>
+            <li>Binary Search Tree (BST) : A binary tree where the left subtree contains values smaller than the node, and the right subtree contains values greater. Enables fast searching.</li>
+            <li>Balanced Binary Tree : A binary tree where the height difference between left and right subtrees is minimal, ensuring efficient operations. Examples: AVL Tree, Red-Black Tree.</li>
+        </o>
+        <h2>Tutorials for Trees</h2>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/eKJrXBCRuNQ" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+        </section>
+         <!-- Graph -->
+        <section id = "fifth">
+        <h2>Introduction of graphs</h2>
+        <p>A **graph** is a non-linear data structure made up of **vertices (nodes)** connected by **edges**. Unlike trees, graphs have no fixed root or strict hierarchy — any node can connect to any other node.
+        <br>Edges can be **directed** (one-way) or **undirected** (two-way), and **weighted** (with a cost) or **unweighted**. Graphs may also be **cyclic** (contain loops) or **acyclic**.
+        <br>Graphs are widely used to represent real-world relationships and networks, such as social networks, maps, and computer networks. They're essential in solving problems like shortest path finding, network routing, and recommendation systems, making them a powerful tool for representing interconnected data.</p>
+        <h2>Characteristics of graphs</h2>
+        <ul>
+            <li>No Fixed Hierarchy : Unlike trees, graphs have no root node or strict parent-child structure; any vertex can connect to any other vertex freely.</li>
+            <li>Directed or Undirected Edges : Connections (edges) between vertices can be directed (one-way relationship) or undirected (two-way relationship), depending on how the data is related.</li>
+            <li>Weighted or Unweighted : Edges can carry a weight/cost (representing distance, time, or value) or be unweighted, where all connections are treated equally.</li> 
+        </ul>
+        <h2>Types of graphs</h2>
+        <ol>
+            <li>Weighted or Unweighted : Edges can carry a weight/cost (representing distance, time, or value) or be unweighted, where all connections are treated equally.</li>
+            <li>Undirected Graph :Edges have no direction — connections go both ways (A — B).</li>
+        </ol>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+            <tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/RpgyCJBbl5E" frameborder="0" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; all rights are reserved by varshika choudhary  </p>
+    </footer>
+</body>
+</html>
